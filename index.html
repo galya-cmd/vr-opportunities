@@ -9,9 +9,82 @@
     <link rel="stylesheet" href="/assets/imaje/style/normalize.css">
     <title>Document</title>
 </head>
+<style>
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .intro {
+        width: 100%;
+        height: 100vh;
+        background: url(assets/imaje/VR.png) center no-repeat;
+        background-size: cover;
+        -webkit- background-size: cover;
+    }
+
+    .header {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    .nav {
+        text-transform: uppercase;
+        font-size: 14px;
+
+
+    }
+
+    .nav__link {
+        display: inline-block;
+        vertical-align: top;
+
+    }
+
+
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .h1 {
+        width: 542px;
+    }
+</style>
 
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img src="assets/imaje/logo.png" alt="logo">
+                    <nav class="nav">
+                        <input class="nav__input" type="button" value="корзина">
+                    </nav>
+                </div>
 
+            </div>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="container">
+
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+    <section>
+
+    </section>
 </body>
 
 </html>
