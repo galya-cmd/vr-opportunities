@@ -21,7 +21,7 @@
         height: 100vh;
         background: url(assets/imaje/VR.png) center no-repeat;
         background-size: cover;
-        -webkit- background-size: cover;
+        -webkit-background-size: cover;
     }
 
     .header {
@@ -107,7 +107,8 @@
     }
 
     .block__column {
-        display: grid;
+        border: springgreen solid;
+        display: inline;
         float: left;
         width: 16%;
 
@@ -116,8 +117,14 @@
     }
 
     .vrapper {
-        float: left;
+        display: inline;
+
         width: 25%;
+
+    }
+
+    .block__column-imj {
+        background-color: tomato;
     }
 </style>
 
@@ -173,11 +180,20 @@
         <div class="block">
             <h2>gukktglg</h2>
             <div class="vrapper">
-                <div class="block__column">Без проводов Шлем работает без проводов. Не нужен ни компьютер, ни внешнее
-                    питание, ни большое помещение, чтобы расставить трекеры.</div>
+
+                <div class="block__column">
+                    <div class="block__column-imj"><img src="assets/imaje/praktikum1 1.png" width="90" height="70">
+                    </div>
+                    <b>Без проводов</b> Шлем работает
+                    без проводов. Не нужен ни компьютер, ни
+                    внешнее
+                    питание, ни большое помещение, чтобы расставить трекеры.
+                </div>
             </div>
             <div class="vrapper">
-                <div class="block__column">Без компьютера Современным VR-шлемам нужен мощный компьютер, чтобы запускать
+                <div class="block__column-imj"><img src="assets/imaje/praktikum2 1 (1).png" </div> <div
+                        class="block__column">Без компьютера Современным VR-шлемам нужен мощный компьютер, чтобы
+                    запускать
                     игры. Наш шлем запускает игры из облака, поэтому просто наслаждайтесь</div>
             </div>
             <div class="vrapper">
@@ -197,6 +213,20 @@
             </div>
 
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
